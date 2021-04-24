@@ -4,17 +4,17 @@ body{
   justify-content: center;
 
   #container_landing{
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    div{
+      padding-bottom: 4rem;
+    }
     div, img{
       text-align: center;
       @include first-mobile-margin;
-    }
-    div{
-      padding-bottom: 4rem;
     }
     button{
       margin-top: 1rem;
