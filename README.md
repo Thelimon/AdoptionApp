@@ -1,4 +1,4 @@
-# Modelo de README para Github.
+# Adoption App.
     
 # 💎 App de adopción
 
