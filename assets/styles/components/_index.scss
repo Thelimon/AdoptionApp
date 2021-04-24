@@ -1,0 +1,24 @@
+body{
+  background-color: $main-bg-color;
+  display: flex;
+  justify-content: center;
+
+  #container_landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div, img{
+      text-align: center;
+      @include first-mobile-margin;
+    }
+    div{
+      padding-bottom: 4rem;
+    }
+    button{
+      margin-top: 1rem;
+      @include large-buttons;
+    }
+  }
+}
