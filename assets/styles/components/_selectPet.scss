@@ -1,0 +1,17 @@
+#select-pet-main-container{
+  @include first-mobile-margin;
+  margin-top: 48px;
+  h3, small{
+    text-align: center;
+  }
+}
+
+.select-a-pet{
+  article{
+    @include select-pet;
+    figure{
+
+      @include select-pet-bg-color;
+    }
+  }
+}
