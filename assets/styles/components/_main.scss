@@ -1,0 +1,9 @@
+body{
+  background-color: $main-bg-color;
+  display: flex;
+  justify-content: center;
+}
+
+.main-btn{
+  @include block-btn;
+}

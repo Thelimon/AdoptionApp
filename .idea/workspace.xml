@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08499d23-ee54-4f35-a7c4-3ea139932a44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/components/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/modules/_app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/modules/_app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/modules/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/modules/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/modules/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/modules/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/modules/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/modules/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,5 +61,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
