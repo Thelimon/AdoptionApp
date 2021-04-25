@@ -1,21 +1,9 @@
-body{
-  background-color: $main-bg-color;
-  display: flex;
-  justify-content: center;
-
-  #container_landing{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+ #container_landing{
+   @include margins;
     div{
-      padding-bottom: 4rem;
+      margin-bottom: 10rem;
     }
     div, img{
       text-align: center;
-      @include first-mobile-margin;
     }
-
   }
-}

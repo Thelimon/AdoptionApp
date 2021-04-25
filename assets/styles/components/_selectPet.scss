@@ -1,17 +1,27 @@
-#select-pet-main-container{
-  @include first-mobile-margin;
-  margin-top: 48px;
-  h3, small{
-    text-align: center;
+.select-pet-main-container{
+  height: 100vh;
+  position: relative;
+  h2{
+    font-size: 1.4rem;
+  }
+  h2, .select-a-pet span{
+    margin: 3rem 1.5rem 2rem .5rem;
+    font-weight: 700;
+  }
+  .menu{
+    @include nav-bar-menu;
   }
 }
 
 .select-a-pet{
   article{
     @include select-pet;
-    figure{
-
+    div{
       @include select-pet-bg-color;
+      width: 90%;
+      margin-left: .5rem;
     }
   }
 }
+
+

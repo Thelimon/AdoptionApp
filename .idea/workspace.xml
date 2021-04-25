@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08499d23-ee54-4f35-a7c4-3ea139932a44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/selectPet.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/components/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/components/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/_selectPet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/components/_selectPet.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/modules/_app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/modules/_app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/modules/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/modules/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/mainPage.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/newStory.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/newStory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/selectPet.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/selectPet.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

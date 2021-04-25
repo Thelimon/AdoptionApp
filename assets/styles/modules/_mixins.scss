@@ -1,6 +1,10 @@
-@mixin first-mobile-margin{
-  max-width: $first-mobile-distance;
-  max-height: $first-mobile-distance;
+@mixin margins{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 1rem 1.5rem 0 1.5rem;
 }
 
 @mixin block-btn{
@@ -23,10 +27,30 @@
 
 @mixin select-pet-bg-color{
   height: 4rem;
+  margin-top: .7rem;
   background-color: $buttons-color;
   border-radius: 10px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  span{
+    margin: 0 1.5rem !important;
+    line-height: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+@mixin nav-bar-menu{
+  width: 100%;
+  height: 60px;
+  background-color: $light-color;
+  position: absolute;
+  bottom: 0;
+  ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
 }
