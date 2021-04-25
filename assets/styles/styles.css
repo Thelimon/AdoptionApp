@@ -50,7 +50,7 @@ html {
   font-size: 1.4rem;
 }
 .select-pet-main-container h2, .select-pet-main-container .select-a-pet span {
-  margin: 3rem 1.5rem 2rem 0.5rem;
+  margin: 3rem 1.5rem 2rem 0.7rem;
   font-weight: 700;
 }
 .select-pet-main-container .menu {
@@ -81,7 +81,7 @@ html {
   justify-content: center;
   align-items: center;
   width: 90%;
-  margin-left: 0.5rem;
+  margin-left: 0.7rem;
 }
 .select-a-pet article div span {
   margin: 0 1.5rem !important;
