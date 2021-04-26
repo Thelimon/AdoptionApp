@@ -80,8 +80,27 @@ html {
 .select-pet-main-container .menu ul {
   display: flex;
   justify-content: space-around;
-  padding: 0;
   list-style: none;
+  width: 85%;
+}
+.select-pet-main-container .menu ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+}
+.select-pet-main-container .menu ul li small {
+  margin-left: 0.5rem;
+  visibility: hidden;
+}
+.select-pet-main-container .menu ul li:hover {
+  background-color: #0E172C;
+  color: #FFFFFE;
+  height: 1.7rem;
+  border-radius: 0.7rem;
+}
+.select-pet-main-container .menu ul li:hover small {
+  visibility: visible;
 }
 
 .select-a-pet article {
