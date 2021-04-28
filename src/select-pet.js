@@ -11,7 +11,9 @@ const pet = [
 
 dogButton.addEventListener('click',  () =>{
     let asideSection = document.createElement("section");
+    let test1 = document.querySelector('.cats-section');
     asideSection.className = "dogs-section"
+    test1?.remove();
     asideSection.innerHTML = ` 
         <article class="pet-article">
             <img src="../assets/images/Chester.svg" alt="Chester">
@@ -31,7 +33,9 @@ dogButton.addEventListener('click',  () =>{
 
 catButton.addEventListener('click',  () => {
     let asideSection = document.createElement("section");
+    let test = document.querySelector('.dogs-section');
     asideSection.className = "cats-section"
+    test?.remove();
     asideSection.innerHTML = ` 
         <article class="pet-article">
             <img src="../assets/images/Matilde.svg" alt="Matilde">
@@ -48,3 +52,4 @@ catButton.addEventListener('click',  () => {
     `
     petDescription.appendChild(asideSection);
 });
+
