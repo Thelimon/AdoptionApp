@@ -2,11 +2,11 @@ const petDescription = document.querySelector('.pet-descriptions');
 const dogButton = document.querySelector('#pet-section');
 const catButton = document.querySelector('#cat-section');
 
-const pet = [
-    {name: "Chester", breed: "Golden retriever"},
-    {name:"Papi", breed:"Chihuahua"},
-    {name:"Rocky", breed:"Rottweiler"},
-    {name:"Pelusa", breed:"Bichón frisé"}
+pet = [
+    {name: "Chester", breed: "Golden retriever", age: 3},
+    {name:"Papi", breed:"Chihuahua", age: 5},
+    {name:"Rocky", breed:"Rottweiler", age: 6},
+    {name:"Pelusa", breed:"Bichón frisé", age: 8}
 ]
 
 dogButton.addEventListener('click',  () =>{
@@ -22,7 +22,7 @@ dogButton.addEventListener('click',  () =>{
             <img src="../assets/images/Papi.svg" alt="Papi">
         </article> 
         <article class="pet-article">
-            <img src="../assets/images/Rocky.svg" alt="Rocky">
+            <a href="../pages/rocky.html"><img src="../assets/images/Rocky.svg" alt="Rocky"></a>  
         </article> 
         <article class="pet-article">
             <img src="../assets/images/Pelusa.svg" alt="Pelusa">
@@ -47,7 +47,7 @@ catButton.addEventListener('click',  () => {
             <img src="../assets/images/Kitty.svg" alt="Kitty">
         </article> 
         <article class="pet-article">
-            <img src="../assets/images/Bombón.svg" alt="Bombon">
+            <img src="../assets/images/Bombon.svg" alt="Bombon"> 
         </article>  
     `
     petDescription.appendChild(asideSection);

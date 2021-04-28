@@ -83,3 +83,16 @@
     margin: .7rem 0 0 1rem;
   }
 }
+
+@mixin animal-description{
+  .pet-gender{
+    a{
+      img{
+        height: 2rem;
+        width: 2rem;
+      }
+    }
+      display: grid;
+      grid-template-columns: 1fr 0.2fr 4fr;
+  }
+}
