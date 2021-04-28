@@ -86,13 +86,43 @@
 
 @mixin animal-description{
   .pet-gender{
-    a{
-      img{
-        height: 2rem;
-        width: 2rem;
+    background-color: $light-color;
+    position: absolute;
+    margin-top: -5rem;
+    border-radius: 2rem;
+    .main-pet-information{
+      display: grid;
+      grid-template-columns: 1fr 0.3fr 4fr;
+      place-items: center;
+      margin: 1rem 1.5rem 0 1.5rem;
+      h2{
+        margin-right: 1rem;
+      }
+      a{
+        img{
+          width: 1rem;
+          height: 1rem;
+        }
       }
     }
-      display: grid;
-      grid-template-columns: 1fr 0.2fr 4fr;
+    .about-pet{
+      margin: 0 1.5rem;
+      .important-pet-information{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        div{
+          display: flex;
+          margin-right: 4rem;
+        }
+      }
+    }
+    .pet-location{
+      display: flex;
+      place-items: center;
+      img{
+        margin-right: 1rem;
+      }
+    }
   }
 }

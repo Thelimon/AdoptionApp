@@ -1,5 +1,3 @@
 .pet-description-container{
-  .pet-gender{
-    @include animals-section;
-  }
+    @include animal-description;
 }

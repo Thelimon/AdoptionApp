@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="08499d23-ee54-4f35-a7c4-3ea139932a44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/_pet-information.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/components/_pet-information.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/modules/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/modules/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/select-pet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/select-pet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/rocky.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rocky.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,8 @@
       <workItem from="1619574327874" duration="641000" />
       <workItem from="1619575205561" duration="2826000" />
       <workItem from="1619580538146" duration="1440000" />
-      <workItem from="1619584346011" duration="4657000" />
+      <workItem from="1619584346011" duration="5037000" />
+      <workItem from="1619617755677" duration="11738000" />
     </task>
     <servers />
   </component>
