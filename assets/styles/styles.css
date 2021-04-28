@@ -144,6 +144,10 @@ html {
   margin: 0.7rem 0 0 1rem;
 }
 
+.pet-header img {
+  width: 100%;
+  height: 27.6rem;
+}
 .pet-header a img {
   position: absolute;
   width: 2.7rem;
@@ -181,6 +185,9 @@ html {
   display: flex;
   margin-right: 4rem;
 }
+.pet-description-container .pet-gender .about-pet .important-pet-information div p {
+  margin-left: 0.5rem;
+}
 .pet-description-container .pet-gender .pet-location {
   display: flex;
   place-items: center;
@@ -206,7 +213,7 @@ html {
   width: 6.1rem;
 }
 .pet-description-container .pet-gender .pet-story {
-  margin: 0 1.5rem;
+  margin: 2.3rem 1.5rem;
 }
 .pet-description-container .pet-gender .user-information {
   display: grid;
@@ -223,8 +230,13 @@ html {
 .pet-description-container .pet-gender .user-information .user-information-paraphs img {
   width: 3rem;
   height: 3rem;
+  margin-right: 1rem;
 }
 .pet-description-container .contact-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 8rem;
   height: 2rem;
   text-decoration: none;

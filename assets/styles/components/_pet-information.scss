@@ -1,4 +1,8 @@
 .pet-header{
+    img{
+        width: 100%;
+        height: 27.6rem;
+    }
     a{
         img{
             @include get-back;
@@ -10,5 +14,4 @@
     .contact-btn{
         @include contact-user-btn;
     }
-
 }

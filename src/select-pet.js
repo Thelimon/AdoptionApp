@@ -16,16 +16,16 @@ dogButton.addEventListener('click',  () =>{
     test1?.remove();
     asideSection.innerHTML = ` 
         <article class="pet-article">
-            <img src="../assets/images/Chester.svg" alt="Chester">
+            <a href="../pages/Chester.html"><img src="../assets/images/Chester.svg" alt="Chester"></a> 
         </article>
         <article class="pet-article">
-            <img src="../assets/images/Papi.svg" alt="Papi">
+            <a href="../pages/papi.html"><img src="../assets/images/Papi.svg" alt="Papi"></a>
         </article> 
         <article class="pet-article">
             <a href="../pages/rocky.html"><img src="../assets/images/Rocky.svg" alt="Rocky"></a>  
         </article> 
         <article class="pet-article">
-            <img src="../assets/images/Pelusa.svg" alt="Pelusa">
+            <a href="../pages/pelusa.html"><img src="../assets/images/Pelusa.svg" alt="Pelusa"></a> 
         </article>  
     `
     petDescription.appendChild(asideSection);
@@ -38,16 +38,16 @@ catButton.addEventListener('click',  () => {
     test?.remove();
     asideSection.innerHTML = ` 
         <article class="pet-article">
-            <img src="../assets/images/Matilde.svg" alt="Matilde">
+            <a href="../pages/matilde.html"><img src="../assets/images/Matilde.svg" alt="Matilde"></a> 
         </article>
         <article class="pet-article">
-            <img src="../assets/images/PelusaGato.svg" alt="Pelusa">
+            <a href="../pages/pelusaCat.html"><img src="../assets/images/PelusaGato.svg" alt="Pelusa"></a>
         </article> 
         <article class="pet-article">
-            <img src="../assets/images/Kitty.svg" alt="Kitty">
+            <a href="../pages/kity.html"><img src="../assets/images/Kitty.svg" alt="Kitty"></a>
         </article> 
         <article class="pet-article">
-            <img src="../assets/images/Bombon.svg" alt="Bombon"> 
+            <a href="../pages/bombon.html"><img src="../assets/images/Bombon.svg" alt="Bombon"></a> 
         </article>  
     `
     petDescription.appendChild(asideSection);
