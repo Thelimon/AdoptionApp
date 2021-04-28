@@ -144,6 +144,12 @@ html {
   margin: 0.7rem 0 0 1rem;
 }
 
+.pet-header a img {
+  position: absolute;
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
 .pet-description-container .pet-gender {
   background-color: #FFFFFE;
   position: absolute;
@@ -181,6 +187,51 @@ html {
 }
 .pet-description-container .pet-gender .pet-location img {
   margin-right: 1rem;
+}
+.pet-description-container .pet-gender .information-about-pet h3 {
+  margin: 1rem 1.5rem 2rem 1.5rem;
+}
+.pet-description-container .pet-gender .information-about-pet .pet-personality {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+.pet-description-container .pet-gender .information-about-pet .pet-personality article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #A786DF;
+  border-radius: 1.5rem;
+  width: 6.1rem;
+}
+.pet-description-container .pet-gender .pet-story {
+  margin: 0 1.5rem;
+}
+.pet-description-container .pet-gender .user-information {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 1.5rem 1rem 1.5rem;
+}
+.pet-description-container .pet-gender .user-information .user-information-paraphs {
+  display: flex;
+}
+.pet-description-container .pet-gender .user-information .user-information-paraphs p {
+  margin: 0;
+}
+.pet-description-container .pet-gender .user-information .user-information-paraphs img {
+  width: 3rem;
+  height: 3rem;
+}
+.pet-description-container .contact-btn {
+  width: 8rem;
+  height: 2rem;
+  text-decoration: none;
+  text-align: center;
+  background-color: #0E172C;
+  color: #FFFFFE;
+  border-radius: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
