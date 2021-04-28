@@ -24,4 +24,11 @@
   }
 }
 
+.dogs-section{
+  @include animals-section;
+}
+
+.cats-section{
+  @include animals-section;
+}
 

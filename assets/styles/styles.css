@@ -126,4 +126,22 @@ html {
   font-weight: 700;
 }
 
+.dogs-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1.5rem 1.5rem;
+}
+.dogs-section .pet-article:nth-child(2n) {
+  margin: 0.7rem 0 0 1rem;
+}
+
+.cats-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1.5rem 1.5rem;
+}
+.cats-section .pet-article:nth-child(2n) {
+  margin: 0.7rem 0 0 1rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
