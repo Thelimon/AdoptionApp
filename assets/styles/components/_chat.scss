@@ -1,0 +1,7 @@
+.chat-main{
+  height: 100vh;
+  position: relative;
+  .menu{
+    @include nav-bar-menu;
+  }
+}

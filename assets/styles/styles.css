@@ -256,4 +256,41 @@ html {
   border-radius: 1rem;
 }
 
+.chat-main {
+  height: 100vh;
+  position: relative;
+}
+.chat-main .menu {
+  width: 100%;
+  height: 60px;
+  background-color: #FFFFFE;
+  position: absolute;
+  bottom: 0;
+}
+.chat-main .menu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 85%;
+}
+.chat-main .menu ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+}
+.chat-main .menu ul li small {
+  margin-left: 0.5rem;
+  visibility: hidden;
+}
+.chat-main .menu ul li:hover {
+  background-color: #0E172C;
+  color: #FFFFFE;
+  height: 1.7rem;
+  border-radius: 0.7rem;
+}
+.chat-main .menu ul li:hover small {
+  visibility: visible;
+}
+
 /*# sourceMappingURL=styles.css.map */

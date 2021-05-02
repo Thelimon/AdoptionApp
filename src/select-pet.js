@@ -2,13 +2,6 @@ const petDescription = document.querySelector('.pet-descriptions');
 const dogButton = document.querySelector('#pet-section');
 const catButton = document.querySelector('#cat-section');
 
-pet = [
-    {name: "Chester", breed: "Golden retriever", age: 3},
-    {name:"Papi", breed:"Chihuahua", age: 5},
-    {name:"Rocky", breed:"Rottweiler", age: 6},
-    {name:"Pelusa", breed:"Bichón frisé", age: 8}
-]
-
 dogButton.addEventListener('click',  () =>{
     let asideSection = document.createElement("section");
     let test1 = document.querySelector('.cats-section');
